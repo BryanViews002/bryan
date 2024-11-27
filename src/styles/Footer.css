@@ -1,0 +1,36 @@
+/* App.css */
+.footer {
+  background-color: #333; /* Dark background for contrast */
+  color: #fff; /* White text for visibility */
+  padding: 20px 10px; /* Add spacing around content */
+  text-align: center; /* Center align text */
+}
+
+.footer-content {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 10px; /* Add spacing between elements */
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.social-links {
+  display: flex; /* Horizontal layout for social links */
+  gap: 15px; /* Space between links */
+}
+
+.social-links a {
+  color: #fff; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.social-links a:hover {
+  color: #00bcd4; /* Change color on hover */
+}
